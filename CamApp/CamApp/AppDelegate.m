@@ -17,11 +17,20 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    int new1 = 40;
-    int new2 = 58;
-    int sum = new1 + new2;
+    float f1 = 20.86;
+    float f2;
     
-    NSLog(@"the sum of %i and %i is %i", new1, new2, sum);
+    int i1;
+    int i2 = 15, i3 = 10;
+    
+    int cameron = (int) 25.66;
+    
+    NSLog(@"%i", cameron);
+    
+    cameron = cameron + 5;
+    
+    NSLog(@"%i", cameron);
+    
     
     return YES;
 }
