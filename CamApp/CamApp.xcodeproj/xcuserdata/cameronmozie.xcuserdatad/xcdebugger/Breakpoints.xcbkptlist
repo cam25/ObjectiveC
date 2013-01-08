@@ -2,4 +2,97 @@
 <Bucket
    type = "1"
    version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379348806.703199"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379350062.027153"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379345590.999693"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379350062.027153"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379348806.703199"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "28"
+         endingLineNumber = "28"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379350150.453154"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "33"
+         endingLineNumber = "33"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamApp/AppDelegate.m"
+         timestampString = "379350151.192565"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
+         landmarkName = "-application:didFinishLaunchingWithOptions:"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
 </Bucket>
