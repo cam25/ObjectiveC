@@ -42,11 +42,29 @@
     
     
     if(carsTotal < myCash && carsTotal2 < carsTotal) {
-        printf("I can afford the first car i looked at. Now for the milage. ");
+        printf("I can afford the first car i looked at and i bought it..  ");
     }else if (carsTotal2 || carsTotal < carPrice2){
         printf("I'll buy the second car. Now for the milage. ");
     }else{
         printf("i cant afford either car ");
+    }
+    
+    NSLog(@"Now that i bought the car he offers me tires for it.");
+    
+    
+    float oneTire = 50.00;
+    float twoTires = 99.99;
+    float threeTires = 199.99;
+     float fourTires = 299.99;
+    
+    for (int a = 1; a <=1 ; a++) {
+        
+        NSLog(@"%f for 1 tire %f for two tires %f for three tires %f for four tires.", oneTire, twoTires, threeTires, fourTires);
+        
+        for (int b = 1;b <=1; b++) {
+            NSLog(@"%f is what i'll choose since i have", fourTires);
+        }
+        
     }
     
     
