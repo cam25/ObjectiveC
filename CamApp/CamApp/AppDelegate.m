@@ -44,11 +44,13 @@
         printf("I can afford the first car i looked at and i bought it..  ");
         int x;
         int b;
-        for (x=1; x<=3; x++) {
+        for (x=0; x<=0; x++) {
             NSLog(@"%i",x);
-            for (b=3; b>=1; b--) {
-                NSLog(@"%i..", b);
+            for (b=1; b<=3; b++) {
+                NSLog(@"%i..",b);
+                
             }
+            NSLog(@"SOLD!");
         }
     }else if (carsTotal2 || carsTotal < carPrice2){
         printf("I'll buy the second car. Now for the milage. ");
@@ -68,13 +70,9 @@
         
         NSLog(@"%f for 1 tire %f for two tires %f for three tires %f for four tires.", oneTire, twoTires, threeTires, fourTires);
         
-        for (int b = 1;b <=2; b++) {
-            NSLog(@"%f is what i'll choose since i have", fourTires);
-        }
-        
     }
     
-    
+
     
     return YES;
 }
