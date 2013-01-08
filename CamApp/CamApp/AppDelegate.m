@@ -17,19 +17,56 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    float f1 = 20.86;
-    float f2;
+   
+    int carsTotal;
+    float carsTotal2;
+    int myCash = 4000;
+    char name = 'I';
+
     
-    int i1;
-    int i2 = 15, i3 = 10;
+    NSLog(@"%c set out to buy a car. %i is all %c have to spend. %c want the car with the lowest price and still have money left.",name, myCash,name, name);
     
-    int cameron = (int) 25.66;
+    float carPrice1 =  3050.32;
+    float carPrice2 =  4000.22;
+
+    for (int x=0; x<1; x++) {
+        NSLog(@"%f is first car price %f is second car price ",carPrice1,carPrice2);
+    };
     
-    NSLog(@"%i", cameron);
+    NSLog(@"A friend tells me he has 2 cars for sale the first %f the second at %f", carPrice1, carPrice2);
+    carsTotal = myCash - (int)carPrice1;
+    carsTotal2 = (float) carPrice2 - (float) myCash;
     
-    cameron = cameron + 5;
+    NSLog(@"%c do the math myself and %c will have %i left if %c buy the first car and ",name,name, carsTotal, name);
+    NSLog(@"%f is what i'll have left if %c buy the second car.", carsTotal2, name);
     
-    NSLog(@"%i", cameron);
+    
+    if(carsTotal < myCash && carsTotal2 < carsTotal) {
+        printf("I can afford the first car i looked at and i bought it..  ");
+    }else if (carsTotal2 || carsTotal < carPrice2){
+        printf("I'll buy the second car. Now for the milage. ");
+    }else{
+        printf("i cant afford either car ");
+    }
+    
+    NSLog(@"Now that i bought the car he offers me tires for it.");
+    
+    
+    float oneTire = 50.00;
+    float twoTires = 99.99;
+    float threeTires = 199.99;
+     float fourTires = 299.99;
+    
+    for (int a = 1; a <=1 ; a++) {
+        
+        NSLog(@"%f for 1 tire %f for two tires %f for three tires %f for four tires.", oneTire, twoTires, threeTires, fourTires);
+        
+        for (int b = 1;b <=1; b++) {
+            NSLog(@"%f is what i'll choose since i have", fourTires);
+        }
+        
+    }
+    
     
     
     return YES;
