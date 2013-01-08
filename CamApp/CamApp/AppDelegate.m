@@ -33,7 +33,6 @@
         NSLog(@"%f is first car price %f is second car price ",carPrice1,carPrice2);
     };
     
-    NSLog(@"A friend tells me he has 2 cars for sale the first %f the second at %f", carPrice1, carPrice2);
     carsTotal = myCash - (int)carPrice1;
     carsTotal2 = (float) carPrice2 - (float) myCash;
     
@@ -43,6 +42,14 @@
     
     if(carsTotal < myCash && carsTotal2 < carsTotal) {
         printf("I can afford the first car i looked at and i bought it..  ");
+        int x;
+        int b;
+        for (x=1; x<=3; x++) {
+            NSLog(@"%i",x);
+            for (b=3; b>=1; b--) {
+                NSLog(@"%i..", b);
+            }
+        }
     }else if (carsTotal2 || carsTotal < carPrice2){
         printf("I'll buy the second car. Now for the milage. ");
     }else{
@@ -57,11 +64,11 @@
     float threeTires = 199.99;
      float fourTires = 299.99;
     
-    for (int a = 1; a <=1 ; a++) {
+    for (int a = 1; a <=2 ; a++) {
         
         NSLog(@"%f for 1 tire %f for two tires %f for three tires %f for four tires.", oneTire, twoTires, threeTires, fourTires);
         
-        for (int b = 1;b <=1; b++) {
+        for (int b = 1;b <=2; b++) {
             NSLog(@"%f is what i'll choose since i have", fourTires);
         }
         
