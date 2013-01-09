@@ -17,8 +17,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-   
-    int carsTotal;
+   //variables
+    float carsTotal;
     BOOL doesNeedTires = YES;
     float carsTotal2;
     int myCash = 4000;
@@ -34,18 +34,20 @@
         NSLog(@"%.2f is first car price %.2f is second car price ",carPrice1,carPrice2);
     };
     
+    
+    //Car totals being calculated 
     carsTotal = myCash - (int)carPrice1;
     carsTotal2 = (float) carPrice2 - (float) myCash;
     
-    NSLog(@"%c do the math myself and %c will have %i left if %c buy the first car and ",name,name, carsTotal, name);
+    NSLog(@"%c do the math myself and %c will have %.2f left if %c buy the first car and ",name,name, carsTotal, name);
     NSLog(@"%.2f is what i'll have left if %c buy the second car.", carsTotal2, name);
     
-    
+    //if carsTotal is less than my money & cars total2 is less than carsTotal buy first car
     if((carsTotal < myCash) && (carsTotal2 < carsTotal)) {
         printf("I can afford the first car i looked at and i bought it..  ");
         int x;
         int b;
-        for (x=0; x<=0; x++) {
+        for (x=0; x<=0; x++) {//counter
             NSLog(@"%i",x);
             for (b=1; b<=3; b++) {
                 NSLog(@"%i..",b);
@@ -53,8 +55,8 @@
             }
             NSLog(@"SOLD!");
         }
-    }else if ((carsTotal2) || (carsTotal < carPrice2)){
-        printf("I'll buy the second car. Now for the milage. ");
+    }else if ((carsTotal2 > carPrice2 ) || (carPrice2 < carPrice1)){//else if carTotal2 is greater than carPrice2 or carprice2 is less than carprice1 then buy second car
+        printf("I'll buy the second car.. ");
     }else{
         printf("i cant afford either car ");
     }
@@ -69,11 +71,11 @@
     float threeTires = 199.99;
      float fourTires = 299.99;
     
-    
-    if((doesNeedTires == YES) && (carsTotal > fourTires)){
+    //does the car need tires and i have money to buy 4?
+    if((doesNeedTires) && (carsTotal > fourTires)){
         printf(" Car needs Tires but how much are they?? ");
     };
-    
+    //loops through price of tires
     for (int a = 1; a <=2 ; a++) {
         
         NSLog(@"%.2f for 1 tire %.2f for two tires %.2f for three tires %.2f for four tires.", oneTire, twoTires, threeTires, fourTires);
@@ -81,7 +83,7 @@
     }
     
     
-    
+    //looping through number of tires
     int tires = 1;
     
     while (tires < 5){
@@ -92,10 +94,10 @@
     tires++;
         
     }
-    NSLog(@"Four tires bought now to subtract that from my remainder from the car %i", carsTotal);
+    NSLog(@"Four tires bought now to subtract that from my remainder from the car %.2f", carsTotal);
     int cashLeft;
     
-    
+    //cash left from the whole deal
    cashLeft = carsTotal-fourTires;
     NSLog(@"%i dollars Left from my car purchase and New tires! %c made out!", cashLeft,name);
     
