@@ -72,7 +72,22 @@
         
     }
     
-
+    int tires = 1;
+    
+    while (tires < 5){
+        //ns log
+        NSLog(@" %i tire", tires);
+        
+    //increment
+    tires++;
+        
+    }
+    NSLog(@"Four tires bought now to subtract that from my remainder from the car %i", carsTotal);
+    int cashLeft;
+    
+    
+   cashLeft = carsTotal-fourTires;
+    NSLog(@"%i dollars Left from my car purchase and New tires! %c made out!", cashLeft,name);
     
     return YES;
 }
