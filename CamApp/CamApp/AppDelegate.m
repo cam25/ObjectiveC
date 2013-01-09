@@ -19,10 +19,11 @@
     
    
     int carsTotal;
+    BOOL doesNeedTires = YES;
     float carsTotal2;
     int myCash = 4000;
     char name = 'I';
-
+   
     
     NSLog(@"%c set out to buy a car. %i is all %c have to spend. %c want the car with the lowest price and still have money left.",name, myCash,name, name);
     
@@ -30,17 +31,17 @@
     float carPrice2 =  4000.22;
 
     for (int x=0; x<1; x++) {
-        NSLog(@"%f is first car price %f is second car price ",carPrice1,carPrice2);
+        NSLog(@"%.2f is first car price %.2f is second car price ",carPrice1,carPrice2);
     };
     
     carsTotal = myCash - (int)carPrice1;
     carsTotal2 = (float) carPrice2 - (float) myCash;
     
     NSLog(@"%c do the math myself and %c will have %i left if %c buy the first car and ",name,name, carsTotal, name);
-    NSLog(@"%f is what i'll have left if %c buy the second car.", carsTotal2, name);
+    NSLog(@"%.2f is what i'll have left if %c buy the second car.", carsTotal2, name);
     
     
-    if(carsTotal < myCash && carsTotal2 < carsTotal) {
+    if((carsTotal < myCash) && (carsTotal2 < carsTotal)) {
         printf("I can afford the first car i looked at and i bought it..  ");
         int x;
         int b;
@@ -52,25 +53,34 @@
             }
             NSLog(@"SOLD!");
         }
-    }else if (carsTotal2 || carsTotal < carPrice2){
+    }else if ((carsTotal2) || (carsTotal < carPrice2)){
         printf("I'll buy the second car. Now for the milage. ");
     }else{
         printf("i cant afford either car ");
     }
     
+     
     NSLog(@"Now that i bought the car he offers me tires for it.");
     
+   
     
     float oneTire = 50.00;
     float twoTires = 99.99;
     float threeTires = 199.99;
      float fourTires = 299.99;
     
+    
+    if((doesNeedTires == YES) && (carsTotal > fourTires)){
+        printf(" Car needs Tires but how much are they?? ");
+    };
+    
     for (int a = 1; a <=2 ; a++) {
         
-        NSLog(@"%f for 1 tire %f for two tires %f for three tires %f for four tires.", oneTire, twoTires, threeTires, fourTires);
+        NSLog(@"%.2f for 1 tire %.2f for two tires %.2f for three tires %.2f for four tires.", oneTire, twoTires, threeTires, fourTires);
         
     }
+    
+    
     
     int tires = 1;
     
