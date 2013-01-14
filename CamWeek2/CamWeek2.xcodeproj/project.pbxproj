@@ -461,6 +461,7 @@
 				11DB5E2A16A3973500276565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11DB5E2B16A3973500276565 /* Build configuration list for PBXNativeTarget "CamWeek2Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				11DB5E2D16A3973500276565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
