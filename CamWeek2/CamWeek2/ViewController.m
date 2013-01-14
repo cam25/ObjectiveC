@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad
 {
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 10.0f, 200.0f, 20.0f)];
+    if (label != nil) {
+        label.backgroundColor = [UIColor redColor];
+        label.text= @"The DaVinci Code";
+        label.textAlignment = UITextAlignmentCenter;
+        [self.view addSubview:label];
+    }
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
