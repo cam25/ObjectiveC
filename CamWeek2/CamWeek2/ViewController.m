@@ -21,6 +21,7 @@
         label1.backgroundColor = [UIColor redColor];
         label1.text= @"The DaVinci Code";
         label1.textAlignment = UITextAlignmentCenter;
+        label1.textColor = [UIColor colorWithRed:0.231 green:0.667 blue:0.957 alpha:1];
         
     }
     [self.view addSubview:label1];
@@ -75,6 +76,28 @@
     
     [self.view addSubview:label6];
     
+    label7 = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 130.0f, 220.0f, 230.0f)];
+    if (label7 != nil) {
+        label7.backgroundColor = [UIColor cyanColor];
+        label7.textAlignment = UITextAlignmentLeft;
+        label7.text = @"This book is about college professor who investigates a murder that took place in Paris's Lourvre Museum in which he finds out that there is a possiblity of Jesus Christ having a spouse named Mary Magdelene. So the professor seeks about Paris's various mueseums to find the truth.";
+        label7.textColor = [UIColor colorWithRed:0.114 green:0.945 blue:0.404 alpha:1];
+        label7.numberOfLines = 14;
+    }
+    
+    [self.view addSubview:label7];
+    
+    label8 = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 370.0f, 100.0f, 20.0f)];
+    if (label8 != nil) {
+        label8.backgroundColor = [UIColor colorWithRed:1 green:0.471 blue:0 alpha:1];
+        label8.textAlignment = UITextAlignmentLeft;
+        label8.text = @"List of Items:";
+        label8.textColor = [UIColor colorWithRed:0.149 green:0.016 blue:1 alpha:1];
+       
+
+    }
+    
+    [self.view addSubview:label8];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     

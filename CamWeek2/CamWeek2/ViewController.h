@@ -16,6 +16,8 @@
     UILabel *label4;
     UILabel *label5;
     UILabel *label6;
+    UILabel *label7;
+    UILabel *label8;
 }
 
 @end
