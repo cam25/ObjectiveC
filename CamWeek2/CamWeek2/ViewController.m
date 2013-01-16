@@ -98,18 +98,25 @@
     NSString *item5 = @"Painting";
     
     NSArray  *itemArray = [NSArray arrayWithObjects: item1,item2,item3,item4,item5,nil];
+    NSMutableString *newString = [[NSMutableString alloc] init];
     
     for (int i = 0; i < itemArray.count; i++)
     {
-        NSLog(@"%@",itemArray);
+        
+        [newString appendString:[NSString stringWithFormat:@"%@",itemArray[i]]];
+        
     }
-
     
-    NSMutableString *mutableString = [[NSMutableString alloc] initWithString:@"HolyGrail,Bible,Airplane,Car,Painting"];
-    [mutableString insertString:@"and " atIndex:29];
-
-
- 
+    
+    [newString insertString:@", " atIndex:9];
+    [newString insertString:@", " atIndex:16];
+    [newString insertString:@", " atIndex:26];
+    [newString insertString:@", " atIndex:31];
+    [newString insertString:@"and " atIndex:33];
+    
+    
+    
+    
     label8 = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 370.0f, 100.0f, 20.0f)];
     if (label8 != nil) {
         label8.backgroundColor = [UIColor colorWithRed:1 green:0.471 blue:0 alpha:1];
@@ -117,7 +124,7 @@
         label8.textColor = [UIColor colorWithRed:0.149 green:0.016 blue:1 alpha:1];
         label8.text = @"List of items:";
         
-
+        
     }
     
     [self.view addSubview:label8];
@@ -127,15 +134,16 @@
         label9.backgroundColor = [UIColor colorWithRed:0.055 green:0.616 blue:0.216 alpha:1] ;
         label9.textAlignment = NSTextAlignmentCenter;
         label9.textColor = [UIColor colorWithRed:0.204 green:0.361 blue:0.4 alpha:1];
-        label9.text = mutableString;
         label9.numberOfLines = 3;
+        label9.text = newString;
+        
         
         
     }
     
     [self.view addSubview:label9];
     
- 
+    
     //NSMutableArray *listItems = [[NSMutableArray alloc] initWithCapacity: 5]; [listItems addObject: @"string"];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
