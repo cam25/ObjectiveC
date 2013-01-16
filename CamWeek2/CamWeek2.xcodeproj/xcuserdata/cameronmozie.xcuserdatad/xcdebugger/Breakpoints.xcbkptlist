@@ -8,25 +8,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek2/ViewController.m"
-         timestampString = "379975963.756087"
+         timestampString = "379999366.969544"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "140"
-         endingLineNumber = "140"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "CamWeek2/ViewController.m"
-         timestampString = "379975631.798928"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "113"
-         endingLineNumber = "113"
-         landmarkName = "-viewDidLoad"
+         startingLineNumber = "149"
+         endingLineNumber = "149"
+         landmarkName = "-didReceiveMemoryWarning"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -34,13 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek2/ViewController.m"
-         timestampString = "379975963.756087"
+         timestampString = "379999366.969544"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "151"
-         endingLineNumber = "151"
-         landmarkName = "@implementation ViewController"
-         landmarkType = "3">
+         startingLineNumber = "160"
+         endingLineNumber = "160">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
