@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DB5E4B16AC5F5B00276565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB5E4A16AC5F5B00276565 /* UIKit.framework */; };
+		11DB5E4D16AC5F5B00276565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB5E4C16AC5F5B00276565 /* Foundation.framework */; };
+		11DB5E4F16AC5F5B00276565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB5E4E16AC5F5B00276565 /* CoreGraphics.framework */; };
+		11DB5E5516AC5F5B00276565 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E5316AC5F5B00276565 /* InfoPlist.strings */; };
+		11DB5E5716AC5F5B00276565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB5E5616AC5F5B00276565 /* main.m */; };
+		11DB5E5B16AC5F5B00276565 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB5E5A16AC5F5B00276565 /* AppDelegate.m */; };
+		11DB5E5D16AC5F5B00276565 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E5C16AC5F5B00276565 /* Default.png */; };
+		11DB5E5F16AC5F5B00276565 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E5E16AC5F5B00276565 /* Default@2x.png */; };
+		11DB5E6116AC5F5B00276565 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E6016AC5F5B00276565 /* Default-568h@2x.png */; };
+		11DB5E6416AC5F5B00276565 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E6216AC5F5B00276565 /* MainStoryboard_iPhone.storyboard */; };
+		11DB5E6716AC5F5B00276565 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E6516AC5F5B00276565 /* MainStoryboard_iPad.storyboard */; };
+		11DB5E6A16AC5F5B00276565 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB5E6916AC5F5B00276565 /* ViewController.m */; };
+		11DB5E7216AC5F5B00276565 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB5E7116AC5F5B00276565 /* SenTestingKit.framework */; };
+		11DB5E7316AC5F5B00276565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB5E4A16AC5F5B00276565 /* UIKit.framework */; };
+		11DB5E7416AC5F5B00276565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DB5E4C16AC5F5B00276565 /* Foundation.framework */; };
+		11DB5E7C16AC5F5B00276565 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11DB5E7A16AC5F5B00276565 /* InfoPlist.strings */; };
+		11DB5E7F16AC5F5B00276565 /* CamWeek3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB5E7E16AC5F5B00276565 /* CamWeek3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11DB5E7516AC5F5B00276565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11DB5E3D16AC5F5A00276565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11DB5E4516AC5F5B00276565;
+			remoteInfo = CamWeek3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DB5E4616AC5F5B00276565 /* CamWeek3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamWeek3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DB5E4A16AC5F5B00276565 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11DB5E4C16AC5F5B00276565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11DB5E4E16AC5F5B00276565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11DB5E5216AC5F5B00276565 /* CamWeek3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CamWeek3-Info.plist"; sourceTree = "<group>"; };
+		11DB5E5416AC5F5B00276565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11DB5E5616AC5F5B00276565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11DB5E5816AC5F5B00276565 /* CamWeek3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CamWeek3-Prefix.pch"; sourceTree = "<group>"; };
+		11DB5E5916AC5F5B00276565 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11DB5E5A16AC5F5B00276565 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11DB5E5C16AC5F5B00276565 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		11DB5E5E16AC5F5B00276565 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		11DB5E6016AC5F5B00276565 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		11DB5E6316AC5F5B00276565 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		11DB5E6616AC5F5B00276565 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		11DB5E6816AC5F5B00276565 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11DB5E6916AC5F5B00276565 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11DB5E7016AC5F5B00276565 /* CamWeek3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamWeek3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DB5E7116AC5F5B00276565 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		11DB5E7916AC5F5B00276565 /* CamWeek3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CamWeek3Tests-Info.plist"; sourceTree = "<group>"; };
+		11DB5E7B16AC5F5B00276565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11DB5E7D16AC5F5B00276565 /* CamWeek3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CamWeek3Tests.h; sourceTree = "<group>"; };
+		11DB5E7E16AC5F5B00276565 /* CamWeek3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamWeek3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11DB5E4316AC5F5B00276565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB5E4B16AC5F5B00276565 /* UIKit.framework in Frameworks */,
+				11DB5E4D16AC5F5B00276565 /* Foundation.framework in Frameworks */,
+				11DB5E4F16AC5F5B00276565 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DB5E6C16AC5F5B00276565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB5E7216AC5F5B00276565 /* SenTestingKit.framework in Frameworks */,
+				11DB5E7316AC5F5B00276565 /* UIKit.framework in Frameworks */,
+				11DB5E7416AC5F5B00276565 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DB5E3B16AC5F5A00276565 = {
+			isa = PBXGroup;
+			children = (
+				11DB5E5016AC5F5B00276565 /* CamWeek3 */,
+				11DB5E7716AC5F5B00276565 /* CamWeek3Tests */,
+				11DB5E4916AC5F5B00276565 /* Frameworks */,
+				11DB5E4716AC5F5B00276565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11DB5E4716AC5F5B00276565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DB5E4616AC5F5B00276565 /* CamWeek3.app */,
+				11DB5E7016AC5F5B00276565 /* CamWeek3Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11DB5E4916AC5F5B00276565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11DB5E4A16AC5F5B00276565 /* UIKit.framework */,
+				11DB5E4C16AC5F5B00276565 /* Foundation.framework */,
+				11DB5E4E16AC5F5B00276565 /* CoreGraphics.framework */,
+				11DB5E7116AC5F5B00276565 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11DB5E5016AC5F5B00276565 /* CamWeek3 */ = {
+			isa = PBXGroup;
+			children = (
+				11DB5E5916AC5F5B00276565 /* AppDelegate.h */,
+				11DB5E5A16AC5F5B00276565 /* AppDelegate.m */,
+				11DB5E6216AC5F5B00276565 /* MainStoryboard_iPhone.storyboard */,
+				11DB5E6516AC5F5B00276565 /* MainStoryboard_iPad.storyboard */,
+				11DB5E6816AC5F5B00276565 /* ViewController.h */,
+				11DB5E6916AC5F5B00276565 /* ViewController.m */,
+				11DB5E5116AC5F5B00276565 /* Supporting Files */,
+			);
+			path = CamWeek3;
+			sourceTree = "<group>";
+		};
+		11DB5E5116AC5F5B00276565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11DB5E5216AC5F5B00276565 /* CamWeek3-Info.plist */,
+				11DB5E5316AC5F5B00276565 /* InfoPlist.strings */,
+				11DB5E5616AC5F5B00276565 /* main.m */,
+				11DB5E5816AC5F5B00276565 /* CamWeek3-Prefix.pch */,
+				11DB5E5C16AC5F5B00276565 /* Default.png */,
+				11DB5E5E16AC5F5B00276565 /* Default@2x.png */,
+				11DB5E6016AC5F5B00276565 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11DB5E7716AC5F5B00276565 /* CamWeek3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11DB5E7D16AC5F5B00276565 /* CamWeek3Tests.h */,
+				11DB5E7E16AC5F5B00276565 /* CamWeek3Tests.m */,
+				11DB5E7816AC5F5B00276565 /* Supporting Files */,
+			);
+			path = CamWeek3Tests;
+			sourceTree = "<group>";
+		};
+		11DB5E7816AC5F5B00276565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11DB5E7916AC5F5B00276565 /* CamWeek3Tests-Info.plist */,
+				11DB5E7A16AC5F5B00276565 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11DB5E4516AC5F5B00276565 /* CamWeek3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DB5E8216AC5F5B00276565 /* Build configuration list for PBXNativeTarget "CamWeek3" */;
+			buildPhases = (
+				11DB5E4216AC5F5B00276565 /* Sources */,
+				11DB5E4316AC5F5B00276565 /* Frameworks */,
+				11DB5E4416AC5F5B00276565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamWeek3;
+			productName = CamWeek3;
+			productReference = 11DB5E4616AC5F5B00276565 /* CamWeek3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11DB5E6F16AC5F5B00276565 /* CamWeek3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11DB5E8516AC5F5B00276565 /* Build configuration list for PBXNativeTarget "CamWeek3Tests" */;
+			buildPhases = (
+				11DB5E6B16AC5F5B00276565 /* Sources */,
+				11DB5E6C16AC5F5B00276565 /* Frameworks */,
+				11DB5E6D16AC5F5B00276565 /* Resources */,
+				11DB5E6E16AC5F5B00276565 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11DB5E7616AC5F5B00276565 /* PBXTargetDependency */,
+			);
+			name = CamWeek3Tests;
+			productName = CamWeek3Tests;
+			productReference = 11DB5E7016AC5F5B00276565 /* CamWeek3Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11DB5E3D16AC5F5A00276565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Cameron Mozie";
+			};
+			buildConfigurationList = 11DB5E4016AC5F5A00276565 /* Build configuration list for PBXProject "CamWeek3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11DB5E3B16AC5F5A00276565;
+			productRefGroup = 11DB5E4716AC5F5B00276565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11DB5E4516AC5F5B00276565 /* CamWeek3 */,
+				11DB5E6F16AC5F5B00276565 /* CamWeek3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11DB5E4416AC5F5B00276565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB5E5516AC5F5B00276565 /* InfoPlist.strings in Resources */,
+				11DB5E5D16AC5F5B00276565 /* Default.png in Resources */,
+				11DB5E5F16AC5F5B00276565 /* Default@2x.png in Resources */,
+				11DB5E6116AC5F5B00276565 /* Default-568h@2x.png in Resources */,
+				11DB5E6416AC5F5B00276565 /* MainStoryboard_iPhone.storyboard in Resources */,
+				11DB5E6716AC5F5B00276565 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DB5E6D16AC5F5B00276565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB5E7C16AC5F5B00276565 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DB5E6E16AC5F5B00276565 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DB5E4216AC5F5B00276565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB5E5716AC5F5B00276565 /* main.m in Sources */,
+				11DB5E5B16AC5F5B00276565 /* AppDelegate.m in Sources */,
+				11DB5E6A16AC5F5B00276565 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11DB5E6B16AC5F5B00276565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DB5E7F16AC5F5B00276565 /* CamWeek3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11DB5E7616AC5F5B00276565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11DB5E4516AC5F5B00276565 /* CamWeek3 */;
+			targetProxy = 11DB5E7516AC5F5B00276565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11DB5E5316AC5F5B00276565 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11DB5E5416AC5F5B00276565 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11DB5E6216AC5F5B00276565 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11DB5E6316AC5F5B00276565 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		11DB5E6516AC5F5B00276565 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11DB5E6616AC5F5B00276565 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		11DB5E7A16AC5F5B00276565 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11DB5E7B16AC5F5B00276565 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11DB5E8016AC5F5B00276565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11DB5E8116AC5F5B00276565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11DB5E8316AC5F5B00276565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamWeek3/CamWeek3-Prefix.pch";
+				INFOPLIST_FILE = "CamWeek3/CamWeek3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11DB5E8416AC5F5B00276565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamWeek3/CamWeek3-Prefix.pch";
+				INFOPLIST_FILE = "CamWeek3/CamWeek3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		11DB5E8616AC5F5B00276565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CamWeek3.app/CamWeek3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamWeek3/CamWeek3-Prefix.pch";
+				INFOPLIST_FILE = "CamWeek3Tests/CamWeek3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		11DB5E8716AC5F5B00276565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CamWeek3.app/CamWeek3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CamWeek3/CamWeek3-Prefix.pch";
+				INFOPLIST_FILE = "CamWeek3Tests/CamWeek3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11DB5E4016AC5F5A00276565 /* Build configuration list for PBXProject "CamWeek3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DB5E8016AC5F5B00276565 /* Debug */,
+				11DB5E8116AC5F5B00276565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11DB5E8216AC5F5B00276565 /* Build configuration list for PBXNativeTarget "CamWeek3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DB5E8316AC5F5B00276565 /* Debug */,
+				11DB5E8416AC5F5B00276565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11DB5E8516AC5F5B00276565 /* Build configuration list for PBXNativeTarget "CamWeek3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11DB5E8616AC5F5B00276565 /* Debug */,
+				11DB5E8716AC5F5B00276565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11DB5E3D16AC5F5A00276565 /* Project object */;
+}
