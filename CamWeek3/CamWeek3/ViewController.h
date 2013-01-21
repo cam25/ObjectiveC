@@ -12,5 +12,5 @@
 {
 
 }
--(void)add:(NSInteger*)payCheck1 payCheck2:(NSInteger*)payCheck2;
+-(void)add:(int*)payCheck1 payCheck2:(int*)payCheck2;
 @end
