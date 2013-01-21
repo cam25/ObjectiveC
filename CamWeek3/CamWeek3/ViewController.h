@@ -12,5 +12,5 @@
 {
 
 }
--(void)add:(int*)payCheck1 payCheck2:(int*)payCheck2;
+-(int)add:(int)payCheck1 payCheck2:(int)payCheck2;
 @end

@@ -22,11 +22,15 @@
    
 }
 
--(void)add:(int*)payCheck1 payCheck2:(int*)payCheck2
+-(int)add:(int)payCheck1 payCheck2:(int)payCheck2
 
 {
     payCheck1 = 124;
+    payCheck2 = 130;
+    int total;
+    return(payCheck1 + payCheck2);
     
+    NSLog(@"%i + %i = %i", payCheck1,payCheck2, total);
 }
 
 
