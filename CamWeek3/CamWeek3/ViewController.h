@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
 
+}
+-(void)add:(NSInteger*)payCheck1 payCheck2:(NSInteger*)payCheck2;
 @end
