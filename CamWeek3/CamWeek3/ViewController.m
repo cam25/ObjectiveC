@@ -16,9 +16,19 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   
 }
+
+-(void)add:(NSInteger*)payCheck1 payCheck2:(NSInteger*)payCheck2
+
+{
+    
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {

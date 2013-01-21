@@ -13,8 +13,13 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "28"
          endingLineNumber = "28"
+<<<<<<< HEAD
          landmarkName = "@implementation ViewController"
          landmarkType = "3">
+=======
+         landmarkName = "-add:payCheck2:"
+         landmarkType = "5">
+>>>>>>> 249331be6054af5dafa161ad837da1b898b79225
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
