@@ -16,8 +16,8 @@
 
 - (void)viewDidLoad
 {
-   int payCheck1 = 124;
-  int payCheck2 = 130;
+    int payCheck1 = 124;
+    int payCheck2 = 130;
     [self add:payCheck1 payCheck2:payCheck2];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -27,13 +27,11 @@
 
 //adding function
 -(int)add:(int)payCheck1 payCheck2:(int)payCheck2
-
 {
     
-    int total;
-    return(payCheck1 + payCheck2);
+    int total = payCheck1 + payCheck2;
+    return(total);
     
-    NSLog(@"%i + %i = %i", payCheck1,payCheck2, total);
 }
 //boolean
 
