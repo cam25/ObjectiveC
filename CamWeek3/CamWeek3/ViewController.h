@@ -14,4 +14,5 @@
     
 }
 -(int)add:(int)payCheck1 payCheck2:(int)payCheck2;
+-(void)append:(NSString*)string1 string2:(NSString*)string2;
 @end

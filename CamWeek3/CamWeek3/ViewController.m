@@ -35,7 +35,7 @@
     
     int total = payCheck1 + payCheck2;
     return(total);
-    NSLog(@"%i", total);
+    NSLog(@"%d", total);
 }
 //boolean
 -(BOOL)Compare:(int)numberOne numberTwo:(int)numberTwo
@@ -54,7 +54,11 @@
     }
     
 }
+-(void)append:(NSString*)string1 string2:(NSString*)string2
+{
 
+
+}
 
 
 - (void)didReceiveMemoryWarning
