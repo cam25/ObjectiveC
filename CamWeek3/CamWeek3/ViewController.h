@@ -15,5 +15,5 @@
 }
 -(int)add:(int)payCheck1 payCheck2:(int)payCheck2;
 -(BOOL)Compare:(int)numberOne numberTwo:(int)numberTwo;
--(void)append:(NSString*)string1 string2:(NSString*)string2;
+-(int)append:(NSString*)string1 string2:(NSString*)string2;
 @end
