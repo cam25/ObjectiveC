@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    int isNumberSame;
+   
     
 }
 -(int)add:(int)payCheck1 payCheck2:(int)payCheck2;

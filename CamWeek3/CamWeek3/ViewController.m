@@ -16,9 +16,13 @@
 
 - (void)viewDidLoad
 {
+    
+    int numberOne = 100;
+    int numberTwo = 100;
     int payCheck1 = 124;
     int payCheck2 = 130;
-    [self add:payCheck1 payCheck2:payCheck2];
+    [self add:payCheck1 payCheck2:payCheck2];//method call
+    [self Compare:numberOne numberTwo:numberTwo];//method call
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -31,11 +35,26 @@
     
     int total = payCheck1 + payCheck2;
     return(total);
-    
+    NSLog(@"%d", total);
 }
 //boolean
+-(BOOL)Compare:(int)numberOne numberTwo:(int)numberTwo
+{
 
+    int isEqual = YES;
+    int notEqual = NO;
     
+    if (numberOne == numberTwo) {
+        NSLog(@"YES");
+        return isEqual ;
+        
+    } else {
+        NSLog(@"NO");
+        return notEqual ;
+    }
+    
+}
+
 
 
 - (void)didReceiveMemoryWarning
