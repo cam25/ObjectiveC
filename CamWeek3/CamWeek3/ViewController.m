@@ -21,10 +21,11 @@
     int numberTwo = 100;
     int payCheck1 = 124;
     int payCheck2 = 130;
-
+    int newAlert = @"NewStringString1 String2";
     [self add:payCheck1 payCheck2:payCheck2];// addition method call
     [self Compare:numberOne numberTwo:numberTwo];//bool method call
-    [self append:@"String1" string2:@"String2"];
+    [self append:@"String1" string2:@"String2" ];
+    [self displayAlertWithString:newAlert];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -56,16 +57,26 @@
     }
     
 }
--(int)append:(NSString*)string1 string2:(NSString*)string2
+-(NSString*)append:(NSString*)string1 string2:(NSString*)string2
 {
     NSMutableString *newString = [[NSMutableString alloc] initWithFormat:@"NewString"];
     [newString appendString:[NSString stringWithFormat:@"%@ %@",string1,string2]];
     
     NSLog(@"%@", newString);
     return newString;
+    
+   
 
 }
 
+-(void)displayAlertWithString:(NSString*)newAlert
+{
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"error" message:@"You entered wrong string" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+    if(alertView != nil){
+        [alertView show];
+    }
+
+}
 
 - (void)didReceiveMemoryWarning
 {
