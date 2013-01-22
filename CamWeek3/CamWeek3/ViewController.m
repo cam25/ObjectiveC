@@ -21,8 +21,10 @@
     int numberTwo = 100;
     int payCheck1 = 124;
     int payCheck2 = 130;
-    [self add:payCheck1 payCheck2:payCheck2];//method call
-    [self Compare:numberOne numberTwo:numberTwo];//method call
+
+    [self add:payCheck1 payCheck2:payCheck2];// addition method call
+    [self Compare:numberOne numberTwo:numberTwo];//bool method call
+    [self append:@"String1" string2:@"String2"];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -56,7 +58,10 @@
 }
 -(void)append:(NSString*)string1 string2:(NSString*)string2
 {
-
+    NSMutableString *newString = [[NSMutableString alloc] init];
+    [newString appendString:[NSString stringWithFormat:@"%@ %@",string1,string2]];
+    
+    NSLog(@"%@ %@",string1, string2);
 
 }
 
