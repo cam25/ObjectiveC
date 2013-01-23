@@ -16,33 +16,46 @@
 
 - (void)viewDidLoad
 {
+
     
     int numberOne = 100;//compare variable
     int numberTwo = 100;//compare variable
+    BOOL compare = [self Compare:numberOne numberTwo:numberTwo];// bool method call
     
-    int payCheck1 = 124;//addition variable
-    int payCheck2 = 130;//addition variable
+    //adding of int's and passing them in displayAlert function
+    NSInteger payCheck1 = 124;//addition variable
+    NSInteger payCheck2 = 130;//addition variable
+    NSInteger total;//total integer set to hold method call for passing
+    total = [self add:payCheck1 payCheck2:payCheck2];
+    NSNumber *total2 = [[NSNumber alloc] initWithInt:total];//total2 holds the value of total but converted to NSNumber
     
+    NSString *stringTotal1 = [total2 stringValue];//gets string value of total2
+    
+    NSString *stringTotal = [NSString stringWithFormat:@"The Total is %@", stringTotal1];//stringTotal variable holding the value of NSNumber which is now coverted to NSString to pass into displayAlertWithString function
+    
+    if (stringTotal != nil) {
+        
+        [self displayAlertWithString:stringTotal];// displayAlertWithString method call with variable equal to return of append function string
+    }
+
+    
+    //BOOL compare if values are = pass the values to the displayAlertWithString Function
     NSString *compareString = [NSString stringWithFormat:@"%i %i",numberOne,numberTwo];// string to combine both integers to pass into display function
-    
-    if (numberOne == numberTwo) {
+    if (compare == YES) {
+        
         [self displayAlertWithString:compareString];//displayAlertWithString call with compareString passed
     }
-    
-    NSString *newAlert = @"NewStringString1 String2";//combined strings from append method
-    
-    NSNumber *total2 = [NSNumber numberWithInt:254];//total integer converted to NSNumber
-    
-    NSString *stringTotal = [NSString stringWithFormat:@"The Total is %@", total2];//stringTotal variable holding the value of NSNumber which is now coverted to NSString to pass into displayAlertWithString function
 
+    //append of two strings and passing to displayAlertWithString function
+    NSString *append = [self append:@"String1" string2:@"String2" ];// append method call with two string parameters
+    if (append != nil) {
+        [self displayAlertWithString:append];//string append alert call
+    }
+        
+    
+   
 
-    //calls
-    [self add:payCheck1 payCheck2:payCheck2];// addition method call with 2 parameters that are being added
-    [self Compare:numberOne numberTwo:numberTwo];// bool method call
-    [self append:@"String1" string2:@"String2" ];// append method call with two string parameters
-    [self displayAlertWithString:stringTotal];// displayAlertWithString method call with variable equal to return of append function string
-
-    [self displayAlertWithString:newAlert];//string append alert call
+    
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -92,14 +105,14 @@
 }
 
 //displayAlertWithString
--(void)displayAlertWithString:(NSString*)newAlert//displayAlertWithString function with NSString variable
+-(NSString*)displayAlertWithString:(NSString*)string//displayAlertWithString function with NSString variable
 {
 
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"New" message:newAlert delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"New" message:string delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
     if(alertView != nil){
         [alertView show];
     }
-    
+return string;
 }
 
 

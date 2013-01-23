@@ -39,7 +39,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "84"
          endingLineNumber = "84"
-         landmarkName = "-append:string2:"
+         landmarkName = "-Compare:numberTwo:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
