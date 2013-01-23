@@ -16,5 +16,5 @@
 -(int)add:(int)payCheck1 payCheck2:(int)payCheck2;
 -(BOOL)Compare:(int)numberOne numberTwo:(int)numberTwo;
 -(NSString*)append:(NSString*)string1 string2:(NSString*)string2;
--(void)displayAlertWithString:(NSString*)newAlert alert2:(NSString*)total2;
+-(void)displayAlertWithString:(NSString*)newAlert;
 @end
