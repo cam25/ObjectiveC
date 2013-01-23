@@ -12,7 +12,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "17"
-         endingLineNumber = "17">
+         endingLineNumber = "17"
+         landmarkName = "-Compare:numberTwo:"
+         landmarkType = "4">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -23,7 +25,9 @@
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "60"
-         endingLineNumber = "60">
+         endingLineNumber = "60"
+         landmarkName = "-add:payCheck2:"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -35,8 +39,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "38"
          endingLineNumber = "38"
-         landmarkName = "@implementation ViewController"
-         landmarkType = "3">
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
