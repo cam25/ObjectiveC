@@ -30,6 +30,7 @@
     NSNumber *total2 = [[NSNumber alloc] initWithInt:total];//total2 holds the value of total but converted to NSNumber
     
     NSString *stringTotal1 = [total2 stringValue];//gets string value of total2
+    NSLog(@"%@", stringTotal1);
     
     NSString *stringTotal = [NSString stringWithFormat:@"The Total is %@", stringTotal1];//stringTotal variable holding the value of NSNumber which is now coverted to NSString to pass into displayAlertWithString function
     
