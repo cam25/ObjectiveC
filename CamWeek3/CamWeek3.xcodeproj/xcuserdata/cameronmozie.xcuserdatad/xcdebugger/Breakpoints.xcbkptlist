@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek3/ViewController.m"
-         timestampString = "380657428.617341"
+         timestampString = "380659113.310215"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "45"
-         endingLineNumber = "45"
+         startingLineNumber = "49"
+         endingLineNumber = "49"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek3/ViewController.m"
-         timestampString = "380657727.532915"
+         timestampString = "380659113.310215"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "77"
-         endingLineNumber = "77"
+         startingLineNumber = "84"
+         endingLineNumber = "84"
          landmarkName = "-Compare:numberTwo:"
          landmarkType = "5">
       </FileBreakpoint>
