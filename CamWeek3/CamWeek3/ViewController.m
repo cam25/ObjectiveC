@@ -42,7 +42,7 @@
     [self append:@"String1" string2:@"String2" ];// append method call with two string parameters
     [self displayAlertWithString:stringTotal];// displayAlertWithString method call with variable equal to return of append function string
 
-    [self displayAlertWithString:newAlert];
+    [self displayAlertWithString:newAlert];//string append alert call
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
