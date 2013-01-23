@@ -34,7 +34,7 @@
     
     NSString *stringTotal = [NSString stringWithFormat:@"The Total is %@", stringTotal1];//stringTotal variable holding the value of NSNumber which is now coverted to NSString to pass into displayAlertWithString function
     
-    if (stringTotal != nil) {
+    if (stringTotal != nil) {//if doesnt = 0 call display function
         
         [self displayAlertWithString:stringTotal];// displayAlertWithString method call with variable equal to return of append function string
     }
@@ -42,7 +42,7 @@
     
     //BOOL compare if values are = pass the values to the displayAlertWithString Function
     NSString *compareString = [NSString stringWithFormat:@"%i %i",numberOne,numberTwo];// string to combine both integers to pass into display function
-    if (compare == YES) {
+    if (compare == YES) {//if comparisson = YES call display function
         
         [self displayAlertWithString:compareString];//displayAlertWithString call with compareString passed
     }
@@ -52,11 +52,6 @@
     if (append != nil) {
         [self displayAlertWithString:append];//string append alert call
     }
-        
-    
-   
-
-    
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -101,19 +96,17 @@
     NSLog(@"%@", newString);
     return newString;//returning combined strings as a new string
     
-    
-    
 }
 
 //displayAlertWithString
 -(NSString*)displayAlertWithString:(NSString*)string//displayAlertWithString function with NSString variable
 {
-
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"New" message:string delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
     if(alertView != nil){
         [alertView show];
     }
-return string;
+return string;//returns a string value
+    
 }
 
 
