@@ -18,9 +18,10 @@
 {
 
     
-    int numberOne = 100;//compare variable
-    int numberTwo = 100;//compare variable
+    NSInteger numberOne = 100;//compare variable
+    NSInteger numberTwo = 100;//compare variable
     BOOL compare = [self Compare:numberOne numberTwo:numberTwo];// bool method call
+    NSLog(@"%c",compare);
     
     //adding of int's and passing them in displayAlert function
     NSInteger payCheck1 = 124;//addition variable
