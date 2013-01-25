@@ -48,6 +48,7 @@
         button.frame = CGRectMake(189.0f, 50.0f, 100.0f, 40.0f);
         [button setTitle:@"Login" forState:UIControlStateNormal];
         [button addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
+        button.tag = 1;
         [self.view addSubview:button];
     }
     
@@ -56,6 +57,7 @@
         showDate.frame = CGRectMake(10.0f, 300.0f, 100.0f, 40.0f);
         [showDate setTitle:@"Show Date" forState:UIControlStateNormal];
         [showDate addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
+        showDate.tag = 2;
         [self.view addSubview:showDate];
     }
     
@@ -81,7 +83,14 @@
     }else if(userText.length > 1)//else if userText entered is greater than 1 store username
         label2.text = @"User: username has been logged in";
     NSLog(@"%@", userText);
+    
+    if (showDate.tag == 2) {
+        UIAlertView *showDate [[UIAlertView alloc] initWithTitle:@"Date" message: delegate:<#(id)#> cancelButtonTitle:<#(NSString *)#> otherButtonTitles:<#(NSString *), ...#>, nil]
     }
+    
+    }
+
+
 
 - (void)didReceiveMemoryWarning
 {
