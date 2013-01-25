@@ -74,9 +74,9 @@
 -(BOOL)Compare:(int)numberOne numberTwo:(int)numberTwo
 {
     
-    int isEqual = YES;
-    int notEqual = NO;
-    
+    BOOL isEqual = YES;
+    BOOL notEqual = NO;
+    NSLog(@"%c", isEqual);
     if (numberOne == numberTwo) {
         NSLog(@"YES");
         return isEqual ;
