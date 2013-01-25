@@ -8,12 +8,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380835248.818995"
+         timestampString = "380837243.668334"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "74"
-         endingLineNumber = "74"
-         landmarkName = "-onClick"
+         startingLineNumber = "76"
+         endingLineNumber = "76"
+         landmarkName = "-onClick:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380835248.818995"
+         timestampString = "380837243.668334"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "71"
-         endingLineNumber = "71"
+         startingLineNumber = "73"
+         endingLineNumber = "73"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,12 +34,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380835248.818995"
+         timestampString = "380837243.668334"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
-         landmarkName = "-onClick"
+         startingLineNumber = "75"
+         endingLineNumber = "75"
+         landmarkName = "-onClick:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -47,12 +47,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380835248.818995"
+         timestampString = "380837853.227629"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "77"
-         endingLineNumber = "77"
-         landmarkName = "-onClick"
+         startingLineNumber = "86"
+         endingLineNumber = "86"
+         landmarkName = "-onClick:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

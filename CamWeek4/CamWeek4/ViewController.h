@@ -14,4 +14,5 @@
     UILabel *label2;
     UITextField *textField;
 }
+- (void)onClick:(UIButton*)button;
 @end

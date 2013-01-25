@@ -48,7 +48,7 @@
         button.frame = CGRectMake(189.0f, 50.0f, 100.0f, 40.0f);
         [button setTitle:@"Login" forState:UIControlStateNormal];
         [button addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
-        button.tag = 1;
+        button.tag = 0;
         [self.view addSubview:button];
     }
     
@@ -57,7 +57,7 @@
         showDate.frame = CGRectMake(10.0f, 300.0f, 100.0f, 40.0f);
         [showDate setTitle:@"Show Date" forState:UIControlStateNormal];
         [showDate addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
-        button.tag = 2;
+        showDate.tag = 1;
         [self.view addSubview:showDate];
     }
     
@@ -76,6 +76,13 @@
 {
     NSString *userText = [textField text];
     
+    if (button.tag == 1) {
+        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:@"date" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        
+        if (showDateAlert != nil) {
+            [showDateAlert show];
+        }
+    }
     //button condition
     if (userText.length < 1) {//if userText is less than 1 username cannot be empty
         label2.text =  @"Username cannot be empty";
@@ -84,10 +91,9 @@
         label2.text = @"User: username has been logged in";
     NSLog(@"%@", userText);
     
-    if (button.tag == 2) {
-        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:@"date" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    }
     
+   
+   
     }
 
 
