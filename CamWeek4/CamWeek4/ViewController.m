@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#define BUTTON_ZERO 0
+#define BUTTON_ONE 1
 @interface ViewController ()
 
 @end
@@ -47,8 +48,9 @@
     if (button != nil) {
         button.frame = CGRectMake(189.0f, 50.0f, 100.0f, 40.0f);
         [button setTitle:@"Login" forState:UIControlStateNormal];
-        [button addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
-        button.tag = 0;
+        [button addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
+        button.tag =  BUTTON_ZERO;
+        
         [self.view addSubview:button];
     }
     
@@ -56,8 +58,8 @@
     if (showDate != nil) {
         showDate.frame = CGRectMake(10.0f, 300.0f, 100.0f, 40.0f);
         [showDate setTitle:@"Show Date" forState:UIControlStateNormal];
-        [showDate addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
-        showDate.tag = 1;
+        [showDate addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
+        showDate.tag = BUTTON_ONE;
         [self.view addSubview:showDate];
     }
     
@@ -75,14 +77,8 @@
 - (void)onClick:(UIButton*)button
 {
     NSString *userText = [textField text];
-    
-    if (button.tag == 1) {
-        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:@"date" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        
-        if (showDateAlert != nil) {
-            [showDateAlert show];
-        }
-    }
+    if(button.tag == BUTTON_ZERO)
+    {
     //button condition
     if (userText.length < 1) {//if userText is less than 1 username cannot be empty
         label2.text =  @"Username cannot be empty";
@@ -91,8 +87,14 @@
         label2.text = @"User: username has been logged in";
     NSLog(@"%@", userText);
     
-    
-   
+    }
+    if (button.tag == BUTTON_ONE) {
+        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:@"date" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        
+        if (showDateAlert != nil) {
+            [showDateAlert show];
+        }
+    }
    
     }
 
