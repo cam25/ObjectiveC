@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 {
-UILabel *username;
+    UILabel *username;
+    UILabel *label2;
+    UITextField *textField;
 }
 @end
