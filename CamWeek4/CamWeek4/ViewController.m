@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad
 {
+
+    
     username = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 15.0f, 100.0f, 20.0f)];
     if (username != nil) {
         username.backgroundColor = [UIColor whiteColor];
@@ -69,7 +71,7 @@
 
         [self.view addSubview:infoButton];
     }
-    
+   
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -89,7 +91,15 @@
     
     }
     if (button.tag == BUTTON_ONE) {
-        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:@"date" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        
+        NSDate *date = [NSDate date];
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        
+            [dateFormatter setDateFormat:@"MM.dd.yyyy 'at' HH:mm:ss zzz"];
+            NSString *showString = [dateFormatter stringFromDate:date];
+        
+        
+        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:showString delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         
         if (showDateAlert != nil) {
             [showDateAlert show];
