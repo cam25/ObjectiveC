@@ -51,6 +51,20 @@
         [self.view addSubview:button];
     }
     
+    UIButton *showDate = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    if (showDate != nil) {
+        showDate.frame = CGRectMake(10.0f, 300.0f, 100.0f, 40.0f);
+        [showDate setTitle:@"Show Date" forState:UIControlStateNormal];
+        [showDate addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:showDate];
+    }
+    
+    UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
+    if (infoButton != nil) {
+        infoButton.frame = CGRectMake(10.0f, 200.0f, 20.0f, 400.0f);
+
+        [self.view addSubview:infoButton];
+    }
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
