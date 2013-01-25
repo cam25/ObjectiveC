@@ -57,7 +57,7 @@
         showDate.frame = CGRectMake(10.0f, 300.0f, 100.0f, 40.0f);
         [showDate setTitle:@"Show Date" forState:UIControlStateNormal];
         [showDate addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
-        showDate.tag = 2;
+        button.tag = 2;
         [self.view addSubview:showDate];
     }
     
@@ -72,7 +72,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 //on button click
-- (void)onClick
+- (void)onClick:(UIButton*)button
 {
     NSString *userText = [textField text];
     
@@ -84,8 +84,8 @@
         label2.text = @"User: username has been logged in";
     NSLog(@"%@", userText);
     
-    if (showDate.tag == 2) {
-        UIAlertView *showDate [[UIAlertView alloc] initWithTitle:@"Date" message: delegate:<#(id)#> cancelButtonTitle:<#(NSString *)#> otherButtonTitles:<#(NSString *), ...#>, nil]
+    if (button.tag == 2) {
+        UIAlertView *showDateAlert = [[UIAlertView alloc] initWithTitle:@"Date" message:@"date" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     }
     
     }
