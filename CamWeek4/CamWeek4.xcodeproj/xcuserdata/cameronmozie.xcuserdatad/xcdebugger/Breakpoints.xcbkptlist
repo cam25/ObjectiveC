@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839443.41018"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "80"
-         endingLineNumber = "80"
+         startingLineNumber = "93"
+         endingLineNumber = "93"
          landmarkName = "-onClick:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839443.41018"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "77"
-         endingLineNumber = "77"
+         startingLineNumber = "90"
+         endingLineNumber = "90"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,33 +34,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839443.41018"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "79"
-         endingLineNumber = "79"
-         landmarkName = "-onClick:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839443.41018"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "84"
-         endingLineNumber = "84"
-         landmarkName = "-onClick:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839443.41018"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "92"
@@ -73,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380840051.879791"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "107"
-         endingLineNumber = "107"
+         startingLineNumber = "97"
+         endingLineNumber = "97"
          landmarkName = "-onClick:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -86,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839443.41018"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "82"
-         endingLineNumber = "82"
+         startingLineNumber = "105"
+         endingLineNumber = "105"
          landmarkName = "-onClick:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -99,7 +73,20 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380840051.879791"
+         timestampString = "380902492.327672"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "128"
+         endingLineNumber = "128"
+         landmarkName = "-onClick:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamWeek4/ViewController.m"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "95"
@@ -112,11 +99,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CamWeek4/ViewController.m"
-         timestampString = "380839440.03701"
+         timestampString = "380902492.327672"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "74"
-         endingLineNumber = "74"
+         startingLineNumber = "108"
+         endingLineNumber = "108"
+         landmarkName = "-onClick:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CamWeek4/ViewController.m"
+         timestampString = "380902492.327672"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>

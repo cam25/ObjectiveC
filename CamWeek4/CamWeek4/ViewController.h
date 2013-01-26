@@ -12,6 +12,7 @@
 {
     UILabel *username;
     UILabel *label2;
+    UILabel *label3;
     UITextField *textField;
 }
 - (void)onClick:(UIButton*)button;

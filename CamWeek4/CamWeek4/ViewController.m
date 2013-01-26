@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #define BUTTON_ZERO 0
 #define BUTTON_ONE 1
+#define BUTTON_TWO 2
 @interface ViewController ()
 
 @end
@@ -17,11 +18,11 @@
 
 - (void)viewDidLoad
 {
-
+self.view.backgroundColor = [UIColor lightGrayColor];
     
-    username = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 15.0f, 100.0f, 20.0f)];
+    username = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 15.0f, 80.0f, 20.0f)];
     if (username != nil) {
-        username.backgroundColor = [UIColor whiteColor];
+        username.backgroundColor = [UIColor lightGrayColor];
         username.text= @"Username";
         username.textAlignment = NSTextAlignmentLeft;
         username.textColor = [UIColor blackColor];
@@ -67,10 +68,22 @@
     
     UIButton *infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
     if (infoButton != nil) {
-        infoButton.frame = CGRectMake(10.0f, 200.0f, 20.0f, 400.0f);
-
+        infoButton.frame = CGRectMake(10.0f, 320.0f, 20.0f, 100.0f);
+        [infoButton addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
+        infoButton.tag = BUTTON_TWO;
         [self.view addSubview:infoButton];
     }
+    
+    label3 = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 380.0f, 300.0f, 70.0f)];
+    if (label3 != nil) {
+        label3.backgroundColor = [UIColor brownColor];
+        label3.textAlignment = NSTextAlignmentLeft;
+        label3.numberOfLines = 2;
+        label3.textColor = [UIColor yellowColor];
+        
+        
+    }
+    
    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -105,6 +118,15 @@
             [showDateAlert show];
         }
     }
+if (button.tag == BUTTON_TWO) {
+    [self.view addSubview:label3];
+    label3.text = @"This application was created by: Cameron Mozie";
+    
+    
+}
+
+
+        
    
     }
 
