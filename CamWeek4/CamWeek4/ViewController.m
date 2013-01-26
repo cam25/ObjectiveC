@@ -95,7 +95,7 @@
         NSDate *date = [NSDate date];
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         
-            [dateFormatter setDateFormat:@"MM.dd.yyyy 'at' HH:mm:ss zzz"];
+            [dateFormatter setDateFormat:@" MMMM dd,yyyy hh:mm:ss a zzzz"];
             NSString *showString = [dateFormatter stringFromDate:date];
         
         
