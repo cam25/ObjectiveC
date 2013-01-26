@@ -86,7 +86,7 @@
         label2.text =  @"Username cannot be empty";
         
     }else if(userText.length > 1)//else if userText entered is greater than 1 store username
-        label2.text = @"User: username has been logged in";
+        label2.text =[[NSString alloc] initWithFormat: @"User: %@ has been logged in", userText];
     NSLog(@"%@", userText);
     
     }
