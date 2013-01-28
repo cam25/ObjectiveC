@@ -125,12 +125,21 @@ self.view.backgroundColor = [UIColor lightGrayColor];
 if (button.tag == BUTTON_TWO) {//if info button clicked display message
     [self.view addSubview:label3];
     label3.text = @"This application was created by: Cameron Mozie";
-
+    
+    //toggel for info button if hidden show if shown and info clicked hide label
+    if ([label3 isHidden]){
+        
+        [label3 setHidden:NO];
+        
+    } else if ([label3 isHidden] == NO)
+        [label3 setHidden:YES];
     
     
 }
+    
+    
   
-    }
+}
 
 
 
