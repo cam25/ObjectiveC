@@ -152,7 +152,7 @@
             [label3 setHidden:NO];
             
         }
-        else if ([label3 isHidden]==NO)
+        else if ([label3 isHidden])
             [label3 setHidden:YES];
         
     }
