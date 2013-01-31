@@ -131,7 +131,7 @@
         NSDate *date = [NSDate date];
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         
-        //setdate formate
+        //setdate formaters
         [dateFormatter setDateFormat:@" MMMM dd,yyyy hh:mm:ss a zzzz"];
         NSString *showString = [dateFormatter stringFromDate:date];//date formatted to a string for passing into alert
         
@@ -152,7 +152,7 @@
             [label3 setHidden:NO];
             
         }
-        else if ([label3 isHidden])
+        else if ([label3 isHidden])//adding == NO adds toggle.. although first click doesnt display info label
             [label3 setHidden:YES];
         
     }
